@@ -1,0 +1,26 @@
+/* Add these styles to your CSS or Sass file */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* This inverts the color, making it black */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: black; /* Set the arrow color to black */
+}
+
+/* Add these styles to your CSS or Sass file */
+.carousel-indicators li {
+    background-color: grey; /* Set the indicator color to black */
+  }
+  
+  .carousel-indicators .active {
+    background-color: black; /* Set the active indicator color to black */
+  }
+  
+  
+.xiao8{
+    pointer-events: none;
+    user-select: 'none';
+}

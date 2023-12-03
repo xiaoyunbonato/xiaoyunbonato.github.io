@@ -1,0 +1,42 @@
+/* Gallery.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px auto; /* Compensate for negative margins with equal value */
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    position: relative; /* Add position relative to create stacking context */
+  }
+  
+  .gallery img {
+    width: calc(33.33% - 10px); /* Adjust the width and gap accordingly */
+    margin: 5px; /* Adjust the margin to control spacing between columns and rows */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition for the jiggle effect */
+    user-select: none; /* Disable text selection */
+  }
+  
+  .gallery img:hover {
+    transform: rotate(-2deg) scale(1.1); /* Apply a slight rotation and scale on hover */
+  }
+  
+  .mac {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Make the image non-clickable */
+    position: relative; /* Add position relative to create stacking context */
+    margin-top: -32px;
+    max-width: 500px;
+    z-index: 999; /* Set a higher z-index to bring it to the top */
+  }
+  
+  .table{
+    width: 100% !important;
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Make the image non-clickable */
+  }

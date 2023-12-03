@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Juana Alt Medium';
+    src: url('../Fonts/Fontspring-DEMO-juanaalt-medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+::selection {
+    color: #A1858D;
+ } 
+
+.container{
+    padding: 20px;;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Juana Alt Medium', sans-serif;    
+
+}
+
+
+
+/* Your existing CSS */
+
+.responsive-heading {
+    font-family: 'Juana Alt Medium', sans-serif;
+
+    font-size: 9em;
+    transition: font-size 0.3s ease; /* Add transition property */
+    color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .responsive-heading {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .responsive-heading {
+        font-size: 2em;
+    }
+}
+
+
+
+h2 {
+    font-family: 'Juana Alt Medium', sans-serif;
+    align-items: flex-start; /* Align items to the left */
+    text-align: left;
+    padding-bottom: 100px;
+
+
+}
+
+
+
+
+p {
+    align-items: flex-start; /* Align items to the left */
+    text-align: left;
+
+}
+
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.iamges{
+    width:20px;
+}
+
+.scroll-content {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    20% { transform: translateX(100%); }
+    100% { transform: translateX(-200%); }
+}
+
+
+
+/*Contact Me*/
+
+form {
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 900px;
+}
+
+/* Style for form fields and labels */
+.form-group {
+    margin-bottom: 10px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #FFF;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submitbutton {
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #82666C;
+}
+
+.submitbutton:hover {
+    background-color: black;
+}
+
+
+
+/*About Me*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+/* For small screens */
+@media (max-width: 767px) {
+    section.animate-fade-in {
+        flex-direction: column;
+    }
+    .container.animate-fade-in {
+        width: 100%;
+    }
+    div[style*="flex: 1"].animate-fade-in,
+    div[style*="flex: 2"].animate-fade-in {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    img[style*="width: '500px'"].animate-fade-in {
+        max-width: 100%;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    section.animate-fade-in {
+        flex-direction: column;
+    }
+    .container.animate-fade-in {
+        width: 100%;
+    }
+    div[style*="flex: 1"].animate-fade-in,
+    div[style*="flex: 2"].animate-fade-in {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    img[style*="width: '500px'"].animate-fade-in {
+        max-width: 100%;
+    }
+}
+
+/* For large screens */
+@media (min-width: 992px) {
+    /* Add any specific styles for large screens if needed */
+}
+
+
+
+
+/*Contact Me*/
+
+
+/*Contact Me*/
+
+form {
+    min-width: 600px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 90px;
+    
+    /* background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Style for form fields and labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: normal;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #F5F5F5;
+    /* border-radius: 4px; */
+    outline: 0.5px solid #000;
+    border: 0.5px solid #000;
+
+
+}
+
+textarea {
+    height: 300px;
+}
+
+submitbutton {
+    padding: 15px 40px;
+    background-color: #82666C;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/**/
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transition: all 0.3s ease;
+  }
+  
+  .scroll-button:hover .arrow {
+    border-color: #fff;
+  }
+  
+
+
+  .stuff{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    .dev { 
+        width: 80%;
+    }
+}
+
+
+/* .light{
+    background: rgb(243,206,147);
+background: radial-gradient(circle, rgba(243,206,147,1) 10%, rgba(245,245,245,1) 55%, rgba(255,255,255,1) 90%);
+height: 100%;
+} */
+
+
+
+.top {
+    width: 100%;
+    height: 100%;
+    border-radius: 110% 110% 0 0;
+    background-color: white;
+  }
+
+
+@media screen and (max-width: 480px) {
+    .top {
+        width: 100%;
+        height: 100%;
+        border-radius: 110% 110% 0 0;
+        background-color: white;
+    }
+}
+
+  .lighten-on-hover {
+    transform: translateY(4px);
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+  }
+  
+
+  .lighten-on-hover1 {
+    transform: translateY(-1.5px);
+    animation: floatAnimation 2s ease-in-out infinite;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+  }
+  
+
+  .circular-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: 'flex';
+    align-items: 'center'; 
+    justify-content: 'center';
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Make the image non-clickable */
+  }
+
+
+
+
+  .iconRight{
+    padding-right: 30px !important;
+  }
+
+.syow{
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Make the image non-clickable */
+}
+
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;700&display=swap');
+
+body {
+    font-family: 'Avenir Next', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Avenir Next', sans-serif;
+}
+
+:root {
+    --mainColor: #FFF;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #EFBA86;
+    --textColor: #000;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    /* background-color: rgba(0, 0, 0, 0); ; */
+    background-color: #FFF;
+    color: var(--textColor);
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #000;
+    text-decoration: none;
+    justify-content: flex-end;
+	float: right;
+
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+
+}
+
+header .nav-btn {
+	justify-content: flex-end;
+	float: right;
+    padding: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.5rem;
+    outline: none; /* Add this line to remove the default focus outline */
+
+	
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+		justify-content: flex-end;
+		float: right;
+    }
+
+    header nav {
+
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+		text-align: left;
+    }
+
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+.close-icon {
+    font-size: 1.5rem;
+    color: var(--textColor);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+    background-color: none;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: var(--mainColor);
+    
+
+}
+
+.burger-line {
+    width: 25px;
+    height: 1px;
+    background-color: var(--textColor);
+    margin: 3px 0;
+}
+
+.nav-btn {
+    color: #000;
+    padding: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+
+	
+}
+
+
+.close{
+    margin-top: 10px;
+    font-size: 10px;
+    border: none;
+    border-width: 0;
+
+}
+
+.nav-close-btn {
+    border: none;
+    font-family: inherit;
+    background-color: #FFF;
+}
+
+

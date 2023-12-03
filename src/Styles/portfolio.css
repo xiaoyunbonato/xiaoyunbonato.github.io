@@ -1,0 +1,26 @@
+.image-overlay {
+    position: relative;
+}
+
+.image-overlay:hover img {
+    filter: brightness(70%);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-content img {
+    max-width: 50px; /* Adjust the size of the small image */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}

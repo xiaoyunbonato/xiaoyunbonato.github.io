@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Juana Alt Medium';
+    src: url('../Fonts/Fontspring-DEMO-juanaalt-medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    background-color: white;
+    text-align: left;
+    height: 200px; /* Adjust to your desired height */
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 30px;
+}
+
+h3 {
+    font-family: 'Juana Alt Medium', sans-serif;
+    margin: 0; /* Remove default margin */
+    padding-bottom: 10px;
+}
+
+.social-icons img {
+    width: 25px; /* Adjust the size of the icons as needed */
+    margin: 0 5px; /* Add some space between the icons */
+    padding-bottom: 30px;
+
+}
+
+.social-icons a img {
+    transition: transform 0.3s ease; /* Add a transition for the transform property */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Increase the size by 20% */
+}

@@ -1,0 +1,44 @@
+/* DraggableImagesSection.css */
+
+.draggable-images-section {
+    padding: 20px;
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0; /* No gap between items */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .draggable-image-container {
+    cursor: grab;
+    text-align: center;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    z-index: 999;
+  }
+  
+  .draggable-image {
+    cursor: grab;
+    user-select: none;
+  }
+  
+  .group-1 .draggable-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .group-2 .draggable-image {
+    width: 100px;
+    height: 115px;
+  }
+  
+  .group-3 .draggable-image {
+    width: 115px;
+    height: 100px;
+  }
+  
