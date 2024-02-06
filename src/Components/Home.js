@@ -89,7 +89,7 @@ const Home = () => {
   
   return (
 
-    <div>
+    <div id={root}>
       <div>
         
       </div>
@@ -327,30 +327,8 @@ background: 'linear-gradient(0deg, rgba(245,233,243,1) 0%, rgba(245,241,243,1) 3
 
 
       <section id="Portfolio" style={{ ...otherSectionStyle3, padding: "0" }}>
-  <div className="container-fluid p-0">
-    <div className="row mx-0">
-      <div className="col-md-6 col-lg-6 col-xl-6 p-0">
-        <a href="/">
-          <img src={img1} className="img-fluid" alt="Image 1" />
-        </a>
-      </div>
-      <div className="col-md-6 col-lg-6 col-xl-6 p-0">
-        <a href="/">
-          <img src={img2} className="img-fluid" alt="Image 2" />
-        </a>
-      </div>
-      <div className="col-md-6 col-lg-6 col-xl-6 p-0">
-        <a href="/">
-          <img src={dorsia} className="img-fluid" alt="Image 3" />
-        </a>
-      </div>
-      <div className="col-md-6 col-lg-6 col-xl-6 p-0">
-        <a href="/">
-          <img src={img4} className="img-fluid" alt="Image 4" />
-        </a>
-      </div>
-    </div>
-  </div>
+      <a href="https://drive.google.com/file/d/1FRXGJd00EJUtYR3EWNXhdo7tity16nxI/view?usp=sharing" target="_blank" rel="noopener noreferrer"  style={{ textDecoration: 'none', color: '#BBA8C2', fontSize:'68px' }}>Click here to view the my Porfolio</a>
+
 </section>
 
 <section style={{height:'50vh'}}></section>
