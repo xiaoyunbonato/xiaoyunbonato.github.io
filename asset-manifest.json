@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cbdd7f0.css",
-    "main.js": "/static/js/main.c5331c4b.js",
+    "main.css": "/static/css/main.7385d91c.css",
+    "main.js": "/static/js/main.734f6f49.js",
     "static/js/651.fbbd5e5a.chunk.js": "/static/js/651.fbbd5e5a.chunk.js",
     "static/media/pietro.png": "/static/media/pietro.a410202df1c21c16b5d5.png",
     "static/media/me.png": "/static/media/me.fe7be4863722e874c537.png",
     "static/media/polenta.png": "/static/media/polenta.415dba4cdecd5d4b6041.png",
     "static/media/xiao6.png": "/static/media/xiao6.2d45487c4e0ff5d25b40.png",
+    "static/media/xiao.png": "/static/media/xiao.82582975f4f4a1c5c5d1.png",
     "static/media/xiao1.png": "/static/media/xiao1.39e765b9026af5aaf305.png",
     "static/media/mac.png": "/static/media/mac.1e1d5b0ec7c88ecec6aa.png",
     "static/media/xiao4.png": "/static/media/xiao4.aaae78da8c68bdceeff7.png",
@@ -43,12 +44,12 @@
     "static/media/table.png": "/static/media/table.43f7b23ad52ef1420a44.png",
     "static/media/linkedin.png": "/static/media/linkedin.b43178e85089ddb7be34.png",
     "index.html": "/index.html",
-    "main.9cbdd7f0.css.map": "/static/css/main.9cbdd7f0.css.map",
-    "main.c5331c4b.js.map": "/static/js/main.c5331c4b.js.map",
+    "main.7385d91c.css.map": "/static/css/main.7385d91c.css.map",
+    "main.734f6f49.js.map": "/static/js/main.734f6f49.js.map",
     "651.fbbd5e5a.chunk.js.map": "/static/js/651.fbbd5e5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cbdd7f0.css",
-    "static/js/main.c5331c4b.js"
+    "static/css/main.7385d91c.css",
+    "static/js/main.734f6f49.js"
   ]
 }
